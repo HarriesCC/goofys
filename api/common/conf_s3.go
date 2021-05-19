@@ -64,7 +64,7 @@ func (c *S3Config) Init() *S3Config {
 		c.Region = "us-east-1"
 	}
 	if c.StorageClass == "" {
-		c.StorageClass = "One Zone-IA"
+		c.StorageClass = "ONEZONE_IA"
 	}
 	return c
 }
