@@ -61,7 +61,7 @@ var s3Session *session.Session
 
 func (c *S3Config) Init() *S3Config {
 	if c.Region == "" {
-		c.Region = "us-east-1"
+		c.Region = "us-east-2"
 	}
 	if c.StorageClass == "" {
 		c.StorageClass = "ONEZONE_IA"
